@@ -23,21 +23,21 @@ Validar los principales flujos de usuario en Sauce Demo:
 ---
 
 ## 📂 Estructura del proyecto
+```text
 src/test/java/
-├── features/          # Archivos Gherkin
-│    └── login.feature
-│    └── checkout.feature
-├── steps/             # Step definitions
-│    └── LoginSteps.java
-│    └── CheckoutSteps.java
-├── pages/             # Page Object Model
-│    └── LoginPage.java
-│    └── ProductsPage.java
-│    └── CartPage.java
-│    └── CheckoutPage.java
-├── runners/           # Runner de Cucumber
-│    └── TestRunner.java
-
+ ├── features/          # Archivos Gherkin
+ │    ├── login.feature
+ │    └── checkout.feature
+ ├── steps/             # Step definitions
+ │    ├── LoginSteps.java
+ │    └── CheckoutSteps.java
+ ├── pages/             # Page Object Model
+ │    ├── LoginPage.java
+ │    ├── ProductsPage.java
+ │    ├── CartPage.java
+ │    └── CheckoutPage.java
+ └── runners/           # Runner de Cucumber
+      └── TestRunner.java
 
 ---
 
@@ -55,11 +55,18 @@ Todos los usuarios usan la misma contraseña: **`secret_sauce`**
 
 ## ▶️ Ejecución de pruebas
 
-1. Clonar el repositorio:
+Clonar el repositorio:
    ```bash
    git clone https://github.com/Daianatk/qa-sauce-demo.git
    cd qa-sauce-demo
 
-1. Ejecutar pruebas:
+## 📊 Reportes
+Después de ejecutar las pruebas con:
+   ```bash
+   mvn test
 
-    mvn test
+## 📂 Estructura del reporte
+```text
+target/
+ ├── cucumber-reports.html   # Reporte HTML básico
+ └── cucumber.json           # Reporte en formato JSON
