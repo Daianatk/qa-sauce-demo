@@ -43,7 +43,7 @@ src/test/java/
 
 ## 🔑 Credenciales de prueba
 Todos los usuarios usan la misma contraseña: **`secret_sauce`**
-
+```bash
 - `standard_user`
 - `locked_out_user`
 - `problem_user`
@@ -54,7 +54,7 @@ Todos los usuarios usan la misma contraseña: **`secret_sauce`**
 ---
 
 ## ▶️ Ejecución de pruebas
-
+```bash
 Clonar el repositorio:
    git clone https://github.com/Daianatk/qa-sauce-demo.git
    cd qa-sauce-demo
@@ -63,11 +63,14 @@ Clonar el repositorio:
 
 ## 📊 Reportes
 Después de ejecutar las pruebas con:
+
+```bash
    mvn test
 
 ---
 
 ## 📂 Estructura del reporte
+```text
 target/
  ├── cucumber-reports.html   # Reporte HTML básico
  └── cucumber.json           # Reporte en formato JSON
