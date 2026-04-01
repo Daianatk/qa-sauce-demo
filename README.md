@@ -22,6 +22,15 @@ Validar los principales flujos de usuario en Sauce Demo:
 
 ---
 
+## ▶️ Ejecución de pruebas
+Clonar el repositorio:
+   git clone https://github.com/Daianatk/qa-sauce-demo.git
+   cd qa-sauce-demo
+
+## 📊 Reportes
+Después de ejecutar las pruebas con:
+mvn test
+
 ## 📂 Estructura del proyecto
 ```text
 src/test/java/
@@ -41,37 +50,7 @@ src/test/java/
 
 ---
 
-## 🔑 Credenciales de prueba
-Todos los usuarios usan la misma contraseña: **`secret_sauce`**
-```bash
-- `standard_user`
-- `locked_out_user`
-- `problem_user`
-- `performance_glitch_user`
-- `error_user`
-- `visual_user`
-
----
-
-## ▶️ Ejecución de pruebas
-```bash
-Clonar el repositorio:
-   git clone https://github.com/Daianatk/qa-sauce-demo.git
-   cd qa-sauce-demo
-
----
-
-## 📊 Reportes
-
-Después de ejecutar las pruebas con:
-
-```bash
-mvn test
-
----
-
-## 📂 Estructura del reporte
-```text
+📂 Estructura del reporte
 target/
  ├── cucumber-reports.html   # Reporte HTML básico
  └── cucumber.json           # Reporte en formato JSON
