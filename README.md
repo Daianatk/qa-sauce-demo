@@ -62,10 +62,11 @@ Clonar el repositorio:
 ---
 
 ## 📊 Reportes
+
 Después de ejecutar las pruebas con:
 
 ```bash
-   mvn test
+mvn test
 
 ---
 
