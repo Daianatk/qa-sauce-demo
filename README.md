@@ -56,17 +56,18 @@ Todos los usuarios usan la misma contraseña: **`secret_sauce`**
 ## ▶️ Ejecución de pruebas
 
 Clonar el repositorio:
-   ```bash
    git clone https://github.com/Daianatk/qa-sauce-demo.git
    cd qa-sauce-demo
 
+---
+
 ## 📊 Reportes
 Después de ejecutar las pruebas con:
-   ```bash
    mvn test
 
+---
+
 ## 📂 Estructura del reporte
-```text
 target/
  ├── cucumber-reports.html   # Reporte HTML básico
  └── cucumber.json           # Reporte en formato JSON
