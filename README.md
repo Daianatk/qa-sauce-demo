@@ -25,6 +25,7 @@ Validar los principales flujos de usuario en Sauce Demo:
 ## ▶️ Ejecución de pruebas
 Clonar el repositorio:
    git clone https://github.com/Daianatk/qa-sauce-demo.git
+   
    cd qa-sauce-demo
 
 ## 📊 Reportes
